@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App v2</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <title>Weather App</title>
+<body>
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-md-12">
+        <h1> Weather App </h1>
+        <hr>
+      </div>
+    </div>
+    <div id = "main" class = "row">
+      <div class =  "col-md-4">
+        <div id = "weather"></div>
+      </div>
+      <div class = "col-md-4">
+        <p id = "temperature"></p>
+      </div>
+      <div class = "col-md-4">
+        <p id = "location"></p>
+      </div>
+    </div>
+   
+    <br><button class="btn-primary" id="findWeather">Look up Weather</button>
+    <br><br>
+   <form>
+    Latitude:   <input id = "latitude" name="lat" type="text" value="">
+    Longitude:  <input id = "longitude" name="lng" type="text" value="">
+    Location:    <input id = "address" name="formatted_address" type="text" value="">
+   </form>
+    <br><button class = "btn btn-secondary btn-lg convert-temp">°C - °F</button>
+    <br><br><p>Coded by <a href="https://codepen.io/migohunter" target="_blank">Adrian Chan</a>.</p>
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyA0J1JDhaTjhGxICMGa1rYeqRWgS2xwvw8&libraries=places'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/20625/jquery.geocomplete.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
