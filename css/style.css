@@ -1,5 +1,14 @@
-body {
-  background-image: url(http://wallpapercave.net/images/sea-background-wallpapers/sea-background-wallpapers-9.jpg)
+.image-head {
+  background-image:url(https://res.cloudinary.com/dcceoafyr/image/upload/v1525927475/seabackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 1000px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
 }
 
 .container {
@@ -14,7 +23,7 @@ body {
 body,
 h1,
 p{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Trebuchet MS, sans-serif;
 }
 
 hr {
@@ -27,7 +36,7 @@ hr {
 }
 
 #main {
-  padding-top: 100px;
+  padding-top: 50px;
   border-style: solid;
 }
 
